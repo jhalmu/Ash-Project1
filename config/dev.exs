@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :example, Example.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "codespace",
+  password: "password",
   hostname: "localhost",
   database: "example_dev",
   stacktrace: true,

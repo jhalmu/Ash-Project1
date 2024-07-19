@@ -5,7 +5,7 @@ defmodule Example.MixProject do
     [
       app: :example,
       version: "0.1.0",
-      elixir: "~> 1.14",
+      elixir: "~> 1.17.2",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
@@ -35,7 +35,7 @@ defmodule Example.MixProject do
       {:phoenix, "~> 1.7.12"},
       {:phoenix_ecto, "~> 4.4"},
       {:ecto_sql, "~> 3.10"},
-      {:postgrex, ">= 0.0.0"},
+      {:postgrex, ">= 0.16.3"},
       {:phoenix_html, "~> 4.0"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 0.20.2"},

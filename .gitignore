@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /_build
 /cover
 /deps
@@ -9,7 +8,6 @@ erl_crash.dump
 *.beam
 /config/*.secret.exs
 .elixir_ls/
-=======
 # The directory Mix will write compiled artifacts to.
 /_build/
 
@@ -47,4 +45,3 @@ example-*.tar
 npm-debug.log
 /assets/node_modules/
 
->>>>>>> 4bb6d59 (Ash starter example auth app by manual)
