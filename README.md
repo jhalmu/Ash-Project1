@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Elixir-Ash-Auth-Example
 - Example Example app from Ash github-pages (working example there)
 
@@ -11,7 +10,24 @@
 7. happy mix phx.server
 
 - What else. I continue from here and hopefully get something I have wanted to do for a long time.  
-=======
+
+===============================
+
+It wasn't straightforward to get this work in codespace, but in the end this is quite normal ubuntu. Claude Sonnet 3.5 was very helpful, albait I did do litle googling too. 
+
+- install with `asdf` newest erlang and elixir.
+- install newer PostgresSQL to get new things to work
+- create psql new role `codespace` with password and chanege `config.exs` credientals
+- use `sudo su` when you need to use `sudo` commands. If you are asked `sudo` password
+
+Well. I took while in here nightshift and I dont know id I dear to do anything else... or...
+
+
+
+================================
+
+
+
 # Example
 
 To start your Phoenix server:
@@ -30,4 +46,3 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
->>>>>>> 4bb6d59 (Ash starter example auth app by manual)
