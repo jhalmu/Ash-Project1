@@ -1,1 +1,17 @@
-"postCreateCommand": "sudo service postgresql start"
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/elixir-asdf:2": {
+			"elixirVersion": "latest",
+			"erlangVersion": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/neofetch:1": {},
+		"ghcr.io/devcontainers-contrib/features/node-asdf:0": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/postgres-asdf:1": {
+			"version": "latest"
+		},
+		"ghcr.io/warrenbuckley/codespace-features/sqlite:1": {}
+	}
+}
